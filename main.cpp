@@ -6,12 +6,12 @@
 using namespace cv;
 using namespace std;
 
-float**  FundamentalFromCorrospondance() {
+float**  EssentialFromCorrospondance(){
 
 
 
 
-	return FundementalMatrix;
+	return *E;
 }
 
 int main() {
@@ -49,7 +49,7 @@ int main() {
 	Detector.detect(img1_gray, Keypoints1);
 	Detector.detect(img2_gray, Keypoints2);
 
-	SurfDescriptorExtractor extractor;
+	SiftDescriptorExtractor extractor;
 	extractor.compute(img1_gray, Keypoints1, discriptor1);
 	extractor.compute(img2_gray, Keypoints2, discriptor2);
 
@@ -58,7 +58,8 @@ int main() {
 	matcher.match(discriptor1, discriptor2, matches);
 
 	// This section of the code computes the fundamental and essentail matixs
-	E=essentailFromFundamental(FundementalMatrix, K1, K2);
+	E= EssentialFromCorrospondance()
+	F= FundamentalFromEssentail(E, K1, K2);
 	rotation,translation=motionFromEssential(E);
 
 	cout << rotation << "\n" << translation << endl;
@@ -66,3 +67,7 @@ int main() {
 	return 0;
 }
 
+//TODO: DEFINE ROTATION AND TRANSLATION AS VECTORS
+//TODO: WRITE UP ESSENTAIL MATRIX ALGO
+//TODO: GET SIFT TO WORK
+//TODO: FIGURE OUT HOW MATCHES ARE STORED
