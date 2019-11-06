@@ -1,0 +1,135 @@
+﻿  CentralOperations.cpp
+C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(73,39): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(73,39): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(12,31): error C2371:  'Timer::start': redefinition; different basic types
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(11): message :  see declaration of 'Timer::start'
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(12,38): error C2371:  'Timer::end': redefinition; different basic types
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(11): message :  see declaration of 'Timer::end'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(14,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(14,25): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(14,55): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(15,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(15,29): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(15,60): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(16,35): error C2061:  syntax error: identifier 'NORM_L2'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(21,19): error C2533:  'StereoORB': constructors not allowed a return type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(34,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(35,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(39,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(40,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(44,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(44,12): error C2039:  'normalizedEightPointSolver': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(44,1): error C3861:  'normalizedEightPointSolver': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(45,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(45,12): error C2039:  'essentialFromFundamental': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(45,1): error C3861:  'essentialFromFundamental': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(46,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(46,12): error C2039:  'motionFromEssential': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(46,1): error C3861:  'motionFromEssential': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(62,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(62,25): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(62,55): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(63,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(63,29): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(63,60): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(64,35): error C2061:  syntax error: identifier 'NORM_L2'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(69,1): error C2082:  redefinition of formal parameter 'K1'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(78,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(79,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(83,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(84,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(88,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(88,12): error C2039:  'normalizedEightPointSolver': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(88,1): error C3861:  'normalizedEightPointSolver': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(89,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(89,12): error C2039:  'essentialFromFundamental': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(89,1): error C3861:  'essentialFromFundamental': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,12): error C2039:  'motionFromEssential': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,1): error C3861:  'motionFromEssential': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(20,20): error C2248:  'Timer::Timer': cannot access private member declared in class 'Timer'
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(14): message :  see declaration of 'Timer::Timer'
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(10): message :  see declaration of 'Timer'
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(27,49): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(27,49): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(58,20): warning C4244:  '=': conversion from 'double' to '_Ty', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(58,20): warning C4244:         with
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(58,20): warning C4244:         [
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(58,20): warning C4244:             _Ty=float
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(58,20): warning C4244:         ]
+C:\Users\drago\source\repos\Finding depth from stereo images\CentralOperations.cpp(64,21): error C2248:  'Timer::~Timer': cannot access private member declared in class 'Timer'
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(22): message :  compiler has generated 'Timer::~Timer' here
+  LucasKanade.cpp
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(10): message :  see declaration of 'Timer'
+C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(73,39): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(73,39): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\LucasKanade.cpp(11,2): error C2065:  'Capture': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\LucasKanade.cpp(20,3): error C2065:  'Capture': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\LucasKanade.cpp(36,30): error C2065:  'colors': undeclared identifier
+  MonoPipeline.cpp
+C:\Users\drago\source\repos\Finding depth from stereo images\LucasKanade.cpp(37,36): error C2065:  'colors': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(73,39): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Trackers.cpp
+C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(73,39): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(12,31): error C2371:  'Timer::start': redefinition; different basic types
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(11): message :  see declaration of 'Timer::start'
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(12,38): error C2371:  'Timer::end': redefinition; different basic types
+  VO.cpp
+C:\Users\drago\source\repos\Finding depth from stereo images\Trackers.cpp(11): message :  see declaration of 'Timer::end'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(14,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(14,25): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(14,55): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(15,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(15,29): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(15,60): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(16,35): error C2061:  syntax error: identifier 'NORM_L2'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(21,19): error C2533:  'StereoORB': constructors not allowed a return type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(34,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(35,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(39,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(40,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(44,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(44,12): error C2039:  'normalizedEightPointSolver': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(44,1): error C3861:  'normalizedEightPointSolver': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(45,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(45,12): error C2039:  'essentialFromFundamental': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(45,1): error C3861:  'essentialFromFundamental': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(46,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(46,12): error C2039:  'motionFromEssential': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(46,1): error C3861:  'motionFromEssential': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(62,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(62,25): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(62,55): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(63,5): error C2143:  syntax error: missing ';' before '<'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(63,29): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(63,60): error C2238:  unexpected token(s) preceding ';'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(64,35): error C2061:  syntax error: identifier 'NORM_L2'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(69,1): error C2082:  redefinition of formal parameter 'K1'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(78,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(79,3): error C2065:  'Detector': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(83,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(84,3): error C2065:  'extractor': undeclared identifier
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(88,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(88,12): error C2039:  'normalizedEightPointSolver': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(88,1): error C3861:  'normalizedEightPointSolver': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(89,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(89,12): error C2039:  'essentialFromFundamental': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(89,1): error C3861:  'essentialFromFundamental': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,7): error C3083:  'sfm': the symbol to the left of a '::' must be a type
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,12): error C2039:  'motionFromEssential': is not a member of 'cv'
+C:\C++ libs\opencv\build\include\opencv2\video\background_segm.hpp(49): message :  see declaration of 'cv'
+  Generating Code...
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,1): error C3861:  'motionFromEssential': identifier not found
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,1): error C3861: C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(46) : warning C4715: 'CorrectCommoandLineInput': not all control paths return a value
+C:\Users\drago\source\repos\Finding depth from stereo images\VO.cpp(90,1): error C3861: C:\Users\drago\source\repos\Finding depth from stereo images\HelperCode.h(38) : warning C4715: 'ImageLoadingChecker': not all control paths return a value
