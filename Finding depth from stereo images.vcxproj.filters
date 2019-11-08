@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{c87ed0c6-2e0e-46e6-90d0-56da2198802b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{a057cd84-438e-4613-ba13-a6af0bd18fb9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClInclude Include="HelperCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoPipeline.cpp">
+      <Filter>Examples</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CentralOperations.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoPipeline.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="VO.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Trackers.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LucasKanade.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="DenseOpticalFlow.cpp">
+      <Filter>Examples</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

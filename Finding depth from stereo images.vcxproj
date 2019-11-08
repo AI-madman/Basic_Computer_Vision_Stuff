@@ -123,7 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="HelperCode.h" />
+    <ClInclude Include="StereoPipeline.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CentralOperations.cpp" />
+    <ClCompile Include="DenseOpticalFlow.cpp" />
+    <ClCompile Include="LucasKanade.cpp" />
+    <ClCompile Include="MonoPipeline.cpp" />
+    <ClCompile Include="Trackers.cpp" />
+    <ClCompile Include="VO.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
